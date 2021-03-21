@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap');
+
+div.container{
+    height: auto;
+    width: auto;
+   
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: rgb(255, 255, 255);
+    align-items: flex-start;
+    outline: none;
+    border: none;
+    
+}
+.item{
+    background-color: rgba(15, 209, 223, 0.438);
+    margin:10px;
+    padding: 20px;
+    border: 2px solid black;
+    width: 350px;
+    height: 200px;
+    box-sizing: border-box;
+    cursor: pointer;
+    font-size: 24px;
+    text-align: center;
+    border-radius: 8px;
+    font-family: Georgia, 'Times New Roman', Times, serif
+}
+.item:hover{
+    transform: scale(1.01);
+    background-color: rgba(21, 171, 230, 0.658);
+    font-size: 28px;
+    box-shadow: 0px 0px 5px 4px rgba(0, 0, 0, 0.83);
+    -webkit-box-shadow: 0px 0px 5px 4px rgba(0, 0, 0, 0.83);
+    -moz-box-shadow: 0px 0px 5px 4px rgba(0, 0, 0, 0.83);
+}
+div hr{
+    margin: 0%;
+    padding: 1px;
+    background: black;
+    border-radius: 20px;
+
+}
+.item p{
+    text-align:left;
+    font-size: 20px;
+}
+h1{
+    font-size: 50px;
+    padding: 10px;
+    margin: 10px;
+    background: rgba(21, 170, 230, 0.795);
+    color: rgb(255, 255, 255);
+    font-style:normal;
+    font-family: 'Berkshire Swash', cursive;
+    text-decoration:;
+    text-align:start;
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 20px;
+   
+    align-items: flex-start;
+    
+}
+button{
+    width: 150px;
+    height: 40px;
+    padding: 10px;
+    margin-bottom: 100px;
+    text-align: center;
+    font-size: 16px;
+    background-color: whitesmoke;
+    margin-left: auto;
+    border-radius: 20px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    outline: none;
+    margin-right: 20px;
+    margin-top: auto;
+    margin-left: auto;
+    
+    
+}
+button:hover{
+  
+    transform: scale(1.01);
+    box-shadow: 0px 0px 5px 4px rgba(0, 0, 0, 0.83);
+    -webkit-box-shadow: 0px 0px 5px 4px rgba(0, 0, 0, 0.83);
+    -moz-box-shadow: 0px 0px 5px 4px rgba(0, 0, 0, 0.83);
+}
+button.btn{
+    width: 50px;
+    margin-right: 20px;
+    margin-left: 0px;
+    
+}
